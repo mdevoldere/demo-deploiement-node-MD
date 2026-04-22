@@ -1,6 +1,7 @@
 name: Node.js CI demo deploiement
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
