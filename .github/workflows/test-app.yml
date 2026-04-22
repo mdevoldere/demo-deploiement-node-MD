@@ -18,6 +18,9 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 20
+    
+    - name: Changement de répertoire
+      run: cd simpleApp
 
     - name: Installer les dépendances
       run: npm install
