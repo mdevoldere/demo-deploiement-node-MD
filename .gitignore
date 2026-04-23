@@ -1,3 +1,11 @@
+# Visual Studio
+Debug/
+.vs/
+Bin/
+bin/ 
+Obj/
+obj/
+
 # Logs
 logs
 *.log
